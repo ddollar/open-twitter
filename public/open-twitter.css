@@ -1,0 +1,61 @@
+body {
+  background-color: #999;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#inset {
+  border: 2px #666 solid;
+  background-color: #fff;
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#header {
+  background-color: #ddd;
+  border-bottom: 1px #999 solid;
+  padding: 20px;
+}
+
+#header h1 {
+  display: inline;
+  width: 200px;
+}
+
+#header #username_selector {
+  float: right;
+  margin-top: 4px;
+}
+
+#header #username_selector label {
+  margin-right: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#content {
+  padding: 20px;
+}
+
+#content h2 {
+  border: 1px #999 solid;
+  padding: 8px 10px;
+  background-color: #eee;
+}
+
+ul.links {
+  margin-top: 10px;
+  margin-left: 10px;
+  list-style-type: disc;
+}
+
+ul.links li {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}

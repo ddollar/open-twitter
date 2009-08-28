@@ -1,0 +1,7 @@
+- guid = "twitter.com:#{params[:username]}"
+
+%h2 People
+%ul.links
+  %li= link_to opensocial_url(:people, guid, "@self")
+  %li= link_to opensocial_url(:people, guid, "@friends")
+  

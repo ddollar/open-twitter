@@ -1,0 +1,24 @@
+!!!
+
+%head
+  %link{ :rel => 'stylesheet', :href => '/reset.css' }
+  %link{ :rel => 'stylesheet', :href => '/open-twitter.css' }
+  %title Open Twitter
+  
+%body
+
+  #inset
+
+    #header
+      %h1 Open Twitter
+      #username_selector
+        %form{ :method => 'get' }
+          %label{ :for => 'username' } Twitter Username
+          %input#username{ :type => 'text', :name => 'username', :value => params[:username] }
+          %input{ :type => 'submit', :value => 'Update' }
+
+    #content
+      - if params[:username]
+        = haml :links
+
+    #footer
